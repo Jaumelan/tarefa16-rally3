@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rally</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1 class="text-pop-up-top">Rally</h1>
+        
+    </header>
+    <main>
+        <section>
+            <h2>Escolha a Corrida e veja quem Ganha</h2>
+            <div id="buttons">
+                <button class="vibrate-1" type="button" onclick="corridas(9);">Corrida Rápida</button>
+                <button class="vibrate-1" type="button" onclick="corridas(59);">Grande Prêmio</button>
+                <button class="vibrate-1" type="button" onclick="corridas(159);">Enduro</button>
+            </div>
+            <div id="resultado">
+                <p id="vencedor"></p>
+            </div>
+        </section>
+       
+    </main>
+    <script src="rally.js" defer></script>
+</body>
+</html>
